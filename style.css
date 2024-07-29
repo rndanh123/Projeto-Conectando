@@ -1,0 +1,106 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    float: left;
+
+}
+
+.nav-bar a{
+    display: block; /* Torna os links clicáveis em toda a área do item */
+    color: black; /*Cor do texto branca */
+    text-align: center; /*Centralizar o texto */
+    padding:  14px 16px; /*Espaçamento interno */
+    text-decoration: none; /*Remove o sublinhado dos links */
+}
+
+
+
+/*ESTILIZAÇÃO INDEX:*/
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+.card{
+   border: 1px solid #ccc ;
+   background-color: rgb(155, 74, 74);
+   padding: 20px;
+   margin: 10px;
+   width: 300px;
+}
+
+
+
+
+
+
+
+
+
+table
+{
+   border-collapse: collapse; /*JUNTAR AS BORDAS DAS CELULAS*/
+   width:80%; /*LARGURA DA TABELA*/
+   margin:20px auto; /*MARGIN -> MARGEM. CENTRALIZAR*/
+}
+th,td{
+    border: 1px solid #ddd; /**BORDA*/
+    padding: 12px; /*ESPAÇO INTERNO*/
+    text-align: left; /*ALINHAR O TEXTO À ESQUERDA*/
+}
+th{
+    background-color: #F2F2F2; /*COR DE FUNDO*/
+    font-weight: bold; /*PESO DA FONTE -> ESTA EM NEGRITO*/
+}
+.botao{
+    background-color: #e9af10;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;}
+
+
+
+
+.form {
+   border: 1px solid #ccc;
+   max-width: 500px;
+   padding: 20px;
+   margin: 0 auto;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align:center;
+
+}
+
+
+
+.img-footer{
+    border-radius: 50%;
+    margin: 1.2%;
+}

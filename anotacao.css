@@ -1,0 +1,33 @@
+.botao-inscrever[
+   
+]
+
+
+
+1- border-width: 30px; // Estiliza a sua largura
+ border-style: solid; // Estiliza seu estilo
+ border-color:  blue; // Estiliza sua cor
+
+2-A maneira mais simples de se alterar um plano de fundo, é apenas definindo uma cor para ele.
+Para fazer isso, iremos precisar simplesmente de duas coisas:
+Usar a propriedade background-color do CSS
+Código de uma cor
+E como já vimos em nosso Tutorial Sobre Cores em HTML, há diversas maneiras de expressarmos uma cor.
+A maneira mais simples é através do nome das cores: black, white, red, green etc.
+
+3-Sem dúvidas, a maneira mais comum de se definir o tamanho de um texto, é através de pixel, através da abreviação "px", por exemplo: 10px, 12px, 18px, 20 px.
+
+A sintaxe para definir o tamanho da fonte em pixels no CSS é:
+font-size: NUMEROpx;
+
+Onde "NUMERO" é um valor qualquer, como 6, 7, 8, 11 etc.
+Por exemplo, se quisermos definir que todos os parágrafos tenham tamanho 14 pixels:
+p{
+   font-size: 14px;
+}
+4-Antes do CSS3, para criarmos bordas arredondadas era preciso escrever bastante código CSS e usar diversas imagens,
+ mas com a chegava do novo CSS esse trabalho ficou muito mais fácil,
+em apenas três linhas é possível fazer um Box com cantos arredondados aparecer em todos os principais navegadores e ainda poder definir o quanto arredondado ficará a borda.
+
+5-A propriedade CSS text-aligndescreve como conteúdo inline, como texto, é distribuída no elemento pai em bloco. text-alignnão controla o alinhamento de elementos em bloco,
+ apenas o seu conteúdo inline.
